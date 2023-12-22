@@ -75,3 +75,25 @@ Be aware of how you use margins. Don't set the specifically on components, in su
 Margin is meant to increase the distance between siblings. It is not meant to increase the gap between a child and its parent's bounding box; that's what padding is for.
 
 Margin will always try and increase distance between siblings, even if it means transferring margin to the parent element! In this case, the effect is the same as if we had applied the margin to the parent <div>, not the child <p>.
+
+# Rendering logic 2
+
+## Relative positioning
+
+If an element is currently using Positioned layout and you want to opt out, you can set position to either static or initial.
+
+## Absolute positioning
+
+## Containing blocks
+
+## Stacking context
+
+A stacking context is a 3D space where HTML elements are stacked along the Z-axis (the axis coming out of the screen).
+
+## Fixed positioning
+
+## Overflow
+
+## Sticky positioning
+
+## Hidden content
